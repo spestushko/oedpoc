@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "A MEAN app that allows users to manage contact lists",
   "scripts": {
-    "preinstall": "npm install",
-    "install": "npm install html-to-json",
+    "prestart": "npm install html-to-json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www"
   },
